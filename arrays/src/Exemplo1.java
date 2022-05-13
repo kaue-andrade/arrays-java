@@ -10,7 +10,7 @@ public class Exemplo1 {
         // O array serve para armazenar vários valores do mesmo tipo
         // tipo[] nomeVariavel = new tipo[5]
 
-        //Uma escola quer armazenar 4 nomes e depois mostrar no
+        //Uma escola quer armazenar 4 nomes, para isso iremos criar um array, armazenar, consultar, alterar e deletar dados dele
 
         ArrayList<String> nomes = new ArrayList<String>();; //Cria um array com o tipo String que dá a possibilidade de armazenar 5 nomes
         //Lembrando: começa da posição 0. 0, 1, 2, 3
@@ -40,9 +40,10 @@ public class Exemplo1 {
             //System.out.println("Nome na posição" + posicaoVetor + " : " + nomes.get(posicaoVetor) + " "); //Imprime o nome correspondente a posicaoVetor
         //}
 
-        while (posicaoVetor < 5){
+        while (posicaoVetor < 5){ //Usa o laço de repetição while (enquanto) e cria a variável do tipo int denominada posicaoVetor
             System.out.println("Nome na posição " + posicaoVetor + ": " + nomes.get(posicaoVetor) + " "); //Imprime o nome correspondente a posicaoVetor
             posicaoVetor++; //posicaoVetor recebe + 1
         }
+
     }
 }
